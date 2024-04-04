@@ -1,21 +1,19 @@
 *{
-    font-family: "Tahoma", serif;
+    font-family: "Tahoma", "Times New Roman", serif;
     text-align: center;
+    box-sizing: border-box;
+}
+a{
+    padding: 8px 16px;
+    font-size: 32px;
+}
+.main-div{
+    display: inline-flex;
+    padding: 24px;
 }
 
-h1,h2{
-    font-weight: 500;
-}
-
-li{
-    list-style: none;
-}
-
-ol li{
-    list-style: decimal;
-    list-style-position: inside;
-}
-
-.title{
-    color: blue;
+.content{
+    margin: 24px;
+    padding: 8px;
+    
 }

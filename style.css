@@ -8,14 +8,25 @@ a{
     padding: 8px 16px;
     font-size: 32px;
 }
-.main-div{
-    display: inline-flex;
+.index-main-div{
+    display: inline-table;
     margin: 24px;
 }
 
-.content{
+.index-content{
     margin: 16px;
-    padding: 8px;
+    padding: 80px;
+    background-color: dimgrey;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 750px;
+}
+
+.index-a{
+    text-align: justify;
+    padding: 80px;
+    color: white;
+    text-decoration: none;
 }
 
 ol li{

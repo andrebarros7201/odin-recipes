@@ -8,20 +8,32 @@ a{
     padding: 8px 16px;
     font-size: 32px;
 }
-.main-div{
-    display: inline-flex;
+.index-main-div{
+    display: inline-table;
     margin: 24px;
 }
 
-.content{
+.index-content{
     margin: 16px;
-    padding: 8px;
+    padding: 80px;
+    background-color: dimgrey;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 750px;
+}
+
+.index-a{
+    text-align: justify;
+    padding: 80px;
+    color: white;
+    text-decoration: none;
 }
 
 ol li{
     list-style: decimal;
     list-style-position: inside;
-    padding: 8px;
+    padding: 16px;
+    margin: 16px;
 }
 
 ul li{
@@ -35,5 +47,19 @@ ul li{
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 16px;
+    text-align: center;
+}
+
+.recipe-main-div{
+    display: inline-flex;
+    width: 80%;
+}
+
+.recipe-content{
+    width: 50%;
+}
+
+.recipe-desc,.recipe-ingredients{
+    margin: 16px;
     text-align: center;
 }
